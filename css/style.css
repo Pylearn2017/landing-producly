@@ -75,6 +75,11 @@ body {
     font-size: 15px;
     line-height: 28px;
     color: #2F281E;
+    transition: .1s;
+}
+
+.nav-link:hover, .nav-link:focus, .nav-link:active {
+    color: #FF9900;
 }
 
 .sign-in, .sing-up {
@@ -90,6 +95,12 @@ body {
     line-height: 22px;
     text-align: center;
     color: #173A56;
+    transition: .3s;
+
+}
+
+.sign-in:hover, .sign-in:focus, .sign-in:active {
+    background: #BCD0E5;
 }
 
 .sing-up {
@@ -97,4 +108,9 @@ body {
     background-color: #FF9900;
     color: #fff;
     margin-left: 15px;
+}
+
+
+.sing-up:hover, .sing-up:focus, .sing-up:active {
+    opacity: .75;    
 }
