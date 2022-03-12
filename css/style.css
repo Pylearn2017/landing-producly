@@ -37,6 +37,10 @@ body {
     font-family: 'Open Sans';
 }
 
+section {
+    padding: 0 120px;
+}
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -113,4 +117,70 @@ body {
 
 .sing-up:hover, .sing-up:focus, .sing-up:active {
     opacity: .75;    
+}
+
+.text-side {
+    max-width: 550px;
+    padding-top: 113px;
+}
+
+.img-container {
+    max-width: 642px;
+}
+
+.hero-wrapper {
+    display: flex;
+}
+
+.hero-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 54px;
+    margin-bottom: 30px;
+}
+
+.hero-description {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #544837;
+    margin-bottom: 45px;
+}
+
+.hero-buttons {
+    max-width: 388px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-button {
+    width: 174px;
+    height: 53px;
+    background: #FF9900;
+    border-radius: 4px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    border: 0;
+}
+
+.hero-link {
+    width: 171px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #FF9900;
+    background: inherit;
+    background-image: url('img/svg/triangle.svg');
 }
